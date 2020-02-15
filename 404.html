@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181818;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Inconsolata';
+    font-size: 2rem;
+    color: rgba(128, 255, 128, 0.8);
+    text-shadow:
+        0 0 1ex rgba(51, 255, 51, 1),
+        0 0 2px rgba(255, 255, 255, 0.8);
+
+}
+
+.errorText {
+    margin: 250px 20px 0 80px;
+}
+
+.output::before {
+    content: "> ";
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a::before {
+    content: "[";
+}
+
+a::after {
+    content: "]";
+}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section class="errorText">
+            <h1>Error <span class="number">404</span></h1><br>
+            <p class="output">The page you are looking for might have been removed, had its name changed or is temporarily unavailable.</p><br>
+            <p class="output">Please try to <a href="#">go back</a> or <a href="#">return to the homepage</a>.</p><br>
+            <p class="output">Good luck.</p>
+        </section>
+    </div>
+</body></html>
