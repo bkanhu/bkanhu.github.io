@@ -147,7 +147,7 @@
 
       <div class="formGrid">
 
-        <form method="post" action="#">
+        <form action="POST" data-netlify="true">
           <div class="fields">
             <div class="field half">
               <input type="text" name="name" id="name" placeholder="Name" required>
@@ -159,6 +159,9 @@
               <div class="textarea-wrapper">
                 <textarea name="message" id="message" placeholder="Message" rows="1"
                   style=" resize: none; height: 100px;" required></textarea></div>
+            </div>
+            <div class="field">
+              <div data-netlify-recaptcha="true"></div>
             </div>
           </div>
 
