@@ -281,7 +281,20 @@ form .btn {
   border: none;
   cursor: pointer;
 }
+/* recaptcha verification*/
+.rc-anchor-light.rc-anchor-normal {
+  border: 1px solid #7b7b88;
+  margin-top: 10px;
+  transform:scale(0.77);
+  -webkit-transform:scale(0.77);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+}
 
+.rc-anchor-light {
+  background: #747482;
+  color: #000;
+}
 .contactText {
   padding-top: 10px;
 
