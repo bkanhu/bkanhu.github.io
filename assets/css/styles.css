@@ -225,7 +225,7 @@ a:hover {
 /*  */
 } 
 a {
-  color: #1fafb2 !important;
+  color: #3fdfe2 !important;
 }
 /* header section style end */
 
@@ -351,17 +351,18 @@ form .btn {
 }
 /* recaptcha verification*/
 .rc-anchor-light.rc-anchor-normal {
-  border: 1px solid #7b7b88;
-  margin-top: 10px;
-  transform:scale(0.77);
-  -webkit-transform:scale(0.77);
-  transform-origin:0 0;
-  -webkit-transform-origin:0 0;
+  border: none !important;
+  padding: 0 !important;
+  margin-top: 10px !important;
+  transform:scale(0.77) !important;
+  -webkit-transform:scale(0.77) !important;
+  transform-origin:0 0 !important;
+  -webkit-transform-origin:0 0 !important;
 }
 
 .rc-anchor-light {
-  background: #747482;
-  color: #000;
+  background: #3b3b4b78 !important;
+  color: #fff !important;
 }
 .contactText {
   padding-top: 10px;
