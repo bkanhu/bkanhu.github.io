@@ -40,16 +40,6 @@ body {
 
 
 /* bottom right top to scroll button  start*/
-/* .line {
-  border: 1px solid #fff;
-  border-width: 0 6px 6px 0;
-  display: inline-block;
-  padding: 8px;
-  margin-bottom: -9px;
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-} */
-
 a.top-scroll {
   cursor: pointer;
   display: none;
@@ -58,9 +48,7 @@ a.top-scroll {
   right: 30px;
 }
 a.top-scroll:hover {
-  /* border: 6px solid #1fafb2; */
-  /* background: #1fafb2; */
-  /* color: #fff !important; */
+
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in ;
   transform: scale(1.2);
@@ -180,30 +168,11 @@ a:hover {
   text-decoration: none;
 }
 
-/* .icon { */
-  /* position: relative; */
-  /* color: #262626; */
-  /* transition: 0.5s;
-  z-index: 3;
-} */
-
-/* i.icon:hover {
-  color: #fff;
-  transform: rotateY(360deg);
-} */
 
 .soc{
   opacity: .8;
   background: #3b3b4bb3;
   border-radius: 100%;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* -ms-flex-align: center; */
-  /* align-items: center; */
-  /* -ms-flex-pack: center; */
-  /* justify-content: center; */
-  /* position: relative; */
-  /* text-align: center; */
   width: 2.25rem;
   height: 2.25rem;
   box-shadow: 0 0 0.0625rem 0.4375rem rgba(0,0,0,.01);
@@ -348,21 +317,6 @@ form .btn {
   font-size: .9em;
   border: none;
   cursor: pointer;
-}
-/* recaptcha verification*/
-.rc-anchor-light.rc-anchor-normal {
-  border: none !important;
-  padding: 0 !important;
-  margin-top: 10px !important;
-  transform:scale(0.77) !important;
-  -webkit-transform:scale(0.77) !important;
-  transform-origin:0 0 !important;
-  -webkit-transform-origin:0 0 !important;
-}
-
-.rc-anchor-light {
-  background: #3b3b4b78 !important;
-  color: #fff !important;
 }
 .contactText {
   padding-top: 10px;
