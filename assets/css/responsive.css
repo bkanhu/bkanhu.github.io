@@ -1,0 +1,110 @@
+@media only screen and (max-width:768px ){
+  body {
+    display: inline;
+  }
+  header {
+    top: 0;
+    position: relative;
+    height: 100vh;
+  }
+  .flex {
+    grid-template-areas: "a";
+    grid-gap: 0;
+    grid-auto-columns: 100%;
+    padding: 10px;
+  }
+  .user-img {
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+  .social {
+    margin-top: -15px;
+  }
+  .soc {
+    margin: 5px;
+    font-size: 15px;
+  }
+  .scroll{
+    display: block;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width:400px){
+.box{
+  padding: 5px;
+}
+.card{
+  min-height: 50px;
+}
+.card-body{
+
+}
+.card-title{
+  font-size: 20px;
+}
+.card-text{
+  font-size: 12px;
+}
+}
+@media only screen and (min-width:576px){
+
+  .flex {
+    grid-template-areas: "a a";
+    grid-gap: 0;
+    grid-auto-columns: 49%;
+  }
+  .card{
+    min-height: 105px;
+  }
+  .card-body{
+  
+  }
+  .card-title{
+    font-size: 20px;
+  }
+  .card-text{
+    font-size: 12px;
+  }
+}
+@media (min-width:400px) and (max-width:576px){
+  .user-img {
+    width: 180px;
+    height: 180px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width:576px) and (max-width:786px){
+  .user-img {
+    width: 180px;
+    height: 180px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width:786px){
+  .user-img {
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+  .social {
+    margin-top: -15px;
+  }
+  .soc {
+    margin: 5px;
+    font-size: 15px;
+  }
+  .card-title{
+    font-size: 20px;
+  }
+  .card-text{
+    font-size: 15px;
+  }
+  .lead{
+    font-size: 20px;
+  }
+}
