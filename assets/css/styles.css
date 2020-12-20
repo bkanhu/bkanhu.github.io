@@ -254,11 +254,34 @@ a {
   line-height: 1.6em;
 }
 
+ul.skils-list{
+  margin: 15px 10px;
+  padding-left: 25px ;
+  list-style: none;
+  /* position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px; */
+  /* font-family:  */
+}
+li{
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  /* font-family:  */
+}
+li::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: #3fdfe2;
+  font-size: 14px;
+  line-height: 12px;
+}
 /* about section end here */
 
 /* contact section start here */
 .contact {
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   flex-direction: column;
 
@@ -272,7 +295,8 @@ a {
   font-family: 'Raleway', sans-serif;
   /* padding-top: 50px;
   padding-bottom: 50px; */
-  padding: 50px 0 50px 15px;
+  padding: 50px 0 15px 15px;
+  /* padding: 50px 0 50px 15px; */
 }
 .project {
   padding-bottom: 5px;
@@ -363,6 +387,10 @@ footer a:hover{
     position: relative;
     height: 100vh;
   }
+  .user-img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 }
 /* Media queries */
 /* Larger than mobile */

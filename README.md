@@ -1,7 +1,7 @@
 # B. Kanhu Charan | portfolio
 
-Visit: https://kanhucharan.me
+Visit: https://kanhu.netlify.app/
 
-HTML5 Template: [Github/portgen](https://github.com/bkanhu/portgen)
+<!-- HTML5 Template: [Github/portgen](https://github.com/bkanhu/portgen) -->
 
-![screenshoot](ss.png)
+![screenshoot](portfolio-new-ss-01.png)
