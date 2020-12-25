@@ -1,0 +1,95 @@
+{
+    "project_build": [
+        {
+          "title":"MaaBastralaya",
+          "text": "A online Cloth Store. Build on WooCommerce.",
+          "href": "https://maabastralaya.com/",
+          "stack":[
+            "WordPress",
+            "WooCommerce",
+            "RazorPay"
+          ]
+        },
+        {
+          "title":"TechMinions",
+          "text": "A Tech Blog, For everyday tech news.",
+          "href": "http://techMinions.in",
+          "stack":[
+            "WordPress"
+          ]
+        },
+        {
+          "title":"COVID-19-IN",
+          "text": "Live update covid19 stats of different states of India.",
+          "href": "#",
+          "stack":[
+            "HTML5, CSS3",
+            "JS, API"
+          ]
+        },
+        {
+          "title":"stock-price-check",
+          "text": " A Node.JS CLI program that scraps data of google finance webpage and shows the price of the stock which the user has entered.",
+          "href": "https://github.com/bkanhu/stock-price-check",
+          "stack":[
+            "JS, Node.JS",
+            "cheerio"
+          ]
+        },
+        {
+          "title":"Paela",
+          "text": "Paela, a command-line system information tool for Microsoft Windows.",
+          "href": "https://github.com/bkanhu/paela",
+          "stack":[
+            "batch"
+          ]
+        }
+      ],
+    "project_proud_of": [
+      {
+        "title":"snGradients",
+        "text": "Handpicked collection of beautiful gradients",
+        "href": "https://snngradients.netlify.app/",
+        "stack":[
+          "HTML5, CSS3",
+          "JS"
+        ]
+      },
+      {
+        "title":"Portgen",
+        "text": "A portfolio template.",
+        "href": "https://#/",
+        "stack":[
+          "WordPress",
+          "WooCommerce",
+          "RazorPay"
+        ]
+      },
+      {
+        "title":"Chill",
+        "text": "A web-app that help you to reduce stress by allowing you to do task",
+        "href": "#",
+        "stack":[
+          "HTML5, CSS3",
+          "JS"
+        ]
+      },
+      {
+        "title":"Random-Password-Generator",
+        "text": "It generate Random Password which is hard to crack to protect you from hackers.",
+        "href": "https://kanhucharan.me/Random-Password-Generator/",
+        "stack":[
+          "HTML5,CSS3",
+          "JS"
+        ]
+      },
+      {
+        "title":"Paela",
+        "text": "Paela, a command-line system information tool for Microsoft Windows.",
+        "href": "https://github.com/bkanhu/paela",
+        "stack":[
+          "batch"
+        ]
+      }
+    ]
+  }

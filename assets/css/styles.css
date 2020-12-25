@@ -224,6 +224,7 @@ a {
   min-height: 110px;
   background-color: #23232d;
   margin: 5px 2.5px;
+  /* padding: 15px; */
 }
 
 .card-body {
@@ -233,19 +234,27 @@ a {
 .card-title {
   font-size: 25px;
   margin-bottom: 10px;
+  padding: 5px 0 2.5px;
+  color: #3fdfe2;
   /* position: relative; */
 }
 
-.card-text {
+.card-text, .card-tech {
+  padding: 2.5px 0 5px;
   font-size: 15px;
   color: #f3f3f3;
 }
-
+.projectLink{
+  /* background: #3fdfe2; */
+  padding: 2px;
+  /* color: #fff !important; */
+  /* margin-top: 20px !important; */
+}
 .card:hover {
   /* cursor: pointer; */
   /* border: 1px solid rgb(0, 0, 0, 0); */
-  box-shadow: 0 3px 3px rgb(0, 0, 0, 0.6);
-  transform: scale(1.03);
+  box-shadow: 0 3px 3px rgb(0, 0, 0, 0.3);
+  /* transform: scale(1.03); */
 }
 
 
@@ -277,8 +286,8 @@ li::before {
   position: absolute;
   left: 0px;
   color: #3fdfe2;
-  font-size: 14px;
-  line-height: 12px;
+  font-size: 25px;
+  line-height: 19px;
 }
 /* about section end here */
 
@@ -377,4 +386,9 @@ footer a:hover{
   /* text-transform: lowercase; */
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in ;
+}
+a .projectLink{
+  background-attachment: red !important;
+  color: orangered !important;
+  padding: 25px;
 }
