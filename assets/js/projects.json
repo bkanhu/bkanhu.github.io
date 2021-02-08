@@ -27,6 +27,14 @@
             "JS, API"
           ]
         },
+         {
+          "title":"crypto",
+          "text": "Crypto : Cryptocoin Stats. Display #Top10 by Market cap.",
+          "href": "https://github.com/bkanhu/crypto",
+          "stack":[
+            "JS"
+          ]
+        },
         {
           "title":"stock-price-check",
           "text": " A Node.JS CLI program that scraps data of google finance webpage and shows the price of the stock which the user has entered.",
